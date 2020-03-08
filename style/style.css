@@ -154,29 +154,49 @@ p#error {
 }
 
 /* Responsive */
-@media screen and (max-width: 1025px) {
+
+
+@media screen and (max-width: 1200px) {
 
 	.box-choice {
 		position: inherit;
+		display: inline-flex;
 	}
 	.container-global {
 		height: auto;
 		padding-bottom: 10rem;
+		margin-bottom: 10rem;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+
+	.container-global {
+		padding: 0 10rem;
 	}
 }
 
 @media screen and (max-width: 426px) {
+
+	body {
+		display: flex;
+		flex-direction: column;
+	}
+
 	html {
 		font-size: 50%;
 	}
 	#container {
 		padding: 0 4rem;
 	}
+	.container-global {
+		padding: 0 5rem;
+	}
 }
 
 @media screen and (max-width: 321px) {
 	html {
-		font-size: 45%;
+		font-size: 42%;
 	}
 	.box-choice {
 		margin: 40px 40px 80px 40px;
