@@ -98,6 +98,22 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 
+#btn-refresh {
+	padding: 1.8rem 3.2rem 1.8rem 3.2rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 3rem;
+    background: #e74c3c;
+    color: white;
+    font-size: 1.8rem;
+	font-family: 'Roboto', sans-serif;
+	transition: transform .2s ease-in-out;
+}
+#btn-refresh:hover {
+	transform: scale(1.1);
+}
+
 
 #btn:after {
 	content: url('../img/refresh.svg');
@@ -146,7 +162,6 @@ label {
 
 p#error {
 	color: #e74c3c;
-	margin: 4.2rem 0;
 }
 
 #quote {
