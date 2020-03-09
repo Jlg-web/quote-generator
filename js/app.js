@@ -14,11 +14,11 @@ const error = document.getElementById("error");
 // Générateur super-héros
 const sujetG1 = ["Batman", "Superman", "Spider-man", "Green Lantern", "Flash"];
 const verbeG1 = ["se balance", "vole", "se bat", "bondit", "enchaine les coups"];
-const complementG1 = ["rapidement", "sans dire un mot", "d'immeuble en immmeuble", "avec détermination", "avant de tomber"]
+const complementG1 = ["rapidement", "sans dire un mot", "d'immeuble en immmeuble", "avec détermination", "avant de tomber"];
 // Générateur ennemis
 const sujetG2 = ["Le Joker", "Lex luthor", "Venom", "Bane", "L' épouventail"];
 const verbeG2 = ["vole", "cherche", "casse", "frappe", "dirige"];
-const complementG2 = ["sans arrêt", "son adversaire", "tout sur son passage", "avec un grand sourire", "gotham city"]
+const complementG2 = ["sans arrêt", "son adversaire", "tout sur son passage", "avec un grand sourire", "gotham city"];
 
 // Création de la fonction aléatoire
 function random(arr) {
